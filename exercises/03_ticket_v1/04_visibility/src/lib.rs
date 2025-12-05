@@ -38,7 +38,7 @@ mod ticket {
 mod tests {
     // TODO: Add the necessary `pub` modifiers in the parent module to remove the compiler
     //  errors about the use statement below.
-    use super::ticket::Ticket;
+    pub use super::ticket::Ticket; 
 
     // Be careful though! We don't want this function to compile after you have changed
     // visibility to make the use statement compile!
